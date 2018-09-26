@@ -2,7 +2,7 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
-#Deep RL Project: Navigation
+# Deep RL Project: Navigation
 
 ### Introduction
 
@@ -20,7 +20,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
-The agent trained with the code of this repository solves the environment in episodes, and achieves a maximum average score of after episodes.
+The agent trained with the code of this repository solved the environment in 233 episodes.
 
 ### Getting Started
 
@@ -38,6 +38,6 @@ The agent trained with the code of this repository solves the environment in epi
 
 ### Instructions
 
-Follow the instructions in [training.ipynb](training.ipynb) to train several variations of DQN agents and see how they perform. Read the [report](report.md) to see details about the chosen model, hyperparameters and other considerations 
+Follow the instructions in [training.ipynb](training.ipynb) to train several variations of DQN agents and see how they perform. Read the [report](report.md) to see details about the chosen model, hyperparameters and other considerations.
 
 
