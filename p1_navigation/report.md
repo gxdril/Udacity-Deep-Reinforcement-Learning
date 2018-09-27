@@ -67,7 +67,6 @@ Below, the scores of one instance for each agent type has been ploted.
 |![Double DQN (128,64)](img/scores_B1.png)|![Double DQN (64,32)](img/scores_B2.png)|![Dueling DQN (128,64)](img/scores_B3.png)|
 |![Dueling DQN (64,32)](img/scores_C1.png)|![Dueling Double DQN (128,64)](img/scores_C2.png)|![Dueling Double DQN (64,32)](img/scores_C3.png)|
 
-[Detailed results here](training.ipynb#training)
 
 **Observations:**
 - Whatever the agent type and the dimensions of the fully connected layers, the plots of the moving average of the scores have a similar shape : a nice regular slope from 0 to 13, then a clear slow down on the velocity and difficulty to get higher than 17.
