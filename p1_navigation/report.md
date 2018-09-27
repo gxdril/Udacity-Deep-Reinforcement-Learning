@@ -70,7 +70,7 @@ Below, the scores of one instance for each agent type has been ploted.
 
 **Observations:**
 - Whatever the agent type and the dimensions of the fully connected layers, the plots of the moving average of the scores have a similar shape : a nice regular slope from 0 to 13, then a clear slow down on the velocity and difficulty to get higher than 17.
-- Even after a lot of trining, there are some episodes with very low scores. By watching an agent playing, it appears that the agent sometimes enters a loop (s1,a1,s2,a2,s1,a1,s2,a2,s1,...) and stays stuck until the end of the episode without improving the score.
+- Even after a lot of training, there are some episodes with very low scores. By watching an agent playing, it appears that the agent sometimes enters a loop (s1,a1,s2,a2,s1,a1,s2,a2,s1,...) and stays stuck until the end of the episode without improving the score.
 - That does not explicitly appears in the table above, but the detailled results in [training.ipynb](training.ipynb) show that the variability of the solved score for one given agent type is significant (around 10%-15%). For example, the solved score of 3 instances of Dueling Double DQN [128,64]: 379,384 and 429.
 - Following the previous observation, it is not really possible to decide if the size of the fully connected layers gives better (or worse) results, and which type of agent is better than another one.
 
