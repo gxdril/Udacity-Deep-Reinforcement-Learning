@@ -54,4 +54,4 @@ Below, the scores of the instances have been ploted.
 ## 4. Ideas for future work
 For this environment (Reacher), I don't see much place for learning speed improvement, since  the results are already pretty good. I have tried to include batch normalization as explained in the research paper, but get the same kind of results.
 
-My plan is to try DDPG now on a more complex environment like Crawler, in order to perform a discriminative analysis.
+My plan is to try DDPG on a more complex environment like Crawler, where a discriminative analysis could be useful to evaluate the impact of changes in the model or in the hyperparameters.

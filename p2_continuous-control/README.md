@@ -8,7 +8,7 @@
 
 ### Introduction
 
-In this project, we present a solution to the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. The solution is based on the **Deep Deterministic Policy Gradients ((DDPG)** algorithm and is detailled [here](report.md).
+In this project, we present a solution to the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. The solution is based on the **Deep Deterministic Policy Gradients (DDPG)** algorithm and is detailled [here](report.md).
 
 ![Trained Agent][image1]
 
