@@ -23,17 +23,18 @@ For this configuration, we use 2 completely independent DDPG agents to solve the
 The environment could be solved in 1509 episodes.
 
 ![2 independent agents](img/scores_1509.png)
+
 We have plotted below the difference of the scores of the 2 agents to check if the agents learned at the same speed and got equally strong.  
 We observe that at the end of the training, one of the agent gets a small but consistent advantage on the other.
 ![Delta scores](img/delta_scores_1509.png)
 
-And if we watch the 2 agents play, we notice they learned a different behaviour: both agents move a lot, but the red player is always at the net when the ball pass over the net towards it, whereas the blue agent is always on its baseline in equivalent conditions.
+If we watch the 2 agents play, we notice they learned a different behaviour: both agents move a lot, but the red player is always at the net when the ball pass over the net towards it, whereas the blue agent is always on its baseline in equivalent conditions.
 
 ![A 2 independent agents match](img/1509_0vs1.gif)
 
 ## 3. Configuration 2: distributed agents
 
-For this configuration, the 2 agents share the networks (only one local actor, one target actor, one local critic, one target critic) and share the replay buffer as well. Actually, we use exactly the same architecture and code as in the project [Continuous control](../p2_continuous-control). We can do that here, because the referentials used by the agents to express their local observations are equivalent, and thus one agent can learn from its own experience, but also from the experience of its opponent.
+For this configuration, the 2 agents share the networks (only one local actor, one target actor, one local critic, one target critic) and share the replay buffer as well. Actually, we use exactly the same architecture and code as in the project [Continuous control](../p2_continuous-control). We can do that here, because the referentials used by the agents to express their local observations are equivalent, and thus one agent can learn from the experience of its opponent, in addition to its own experience.
 
 Using the same hyperparameters as in configuration 1, the environment is solved in 1116 episodes.
 
